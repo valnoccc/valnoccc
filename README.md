@@ -33,16 +33,6 @@
 ![Roboflow](https://img.shields.io/badge/Roboflow-6706CE?style=for-the-badge&logo=roboflow&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-
----
-
-### Featured Projects
-
-* **E-commerce Platform:** Hệ thống bán hàng gia dụng với kiến trúc tách biệt Admin/User subdomains, tích hợp thanh toán trực tuyến.
-* **Hotel Management System:** Ứng dụng quản lý khách sạn tập trung vào xử lý luồng dữ liệu phức tạp và báo cáo chi tiết.
-* **Learning Management System (LMS):** Module quản lý bài học video tích hợp lưu trữ đám mây.
-* **E-commerce Laravel System:** Website bán hàng được xây dựng trên framework Laravel, tập trung vào quản lý sản phẩm, đơn hàng và tối ưu hóa hiệu suất phía server.
-
 ---
 
 ### GitHub Stats
