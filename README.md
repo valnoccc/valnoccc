@@ -43,11 +43,6 @@
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=valnoccc&layout=compact&theme=radical&hide=html,css" alt="Top Languages" />
 </p>
 
-### Streak Stats
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=valnoccc&theme=radical" alt="GitHub Streak" />
-</p>
-
 ---
 
 ### Connect with me
