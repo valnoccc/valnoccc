@@ -10,11 +10,34 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: Generate Profile Summary Cards
-        uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            console.log("Profile summary cards workflow started");
-            console.log("User:", context.repo.owner);
-            console.log("Workflow execution successful!");
+      - name: Download GitHub Profile Summary Cards
+        run: |
+          mkdir -p ./profile-summary-cards
+          
+          echo "Downloading profile details card..."
+          curl -L -o ./profile-summary-cards/profile-details.png "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${{ github.repository_owner }}&theme=default"
+          
+          echo "Downloading stats card..."
+          curl -L -o ./profile-summary-cards/stats.png "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${{ github.repository_owner }}&theme=default"
+          
+          echo "Downloading repos per language card..."
+          curl -L -o ./profile-summary-cards/repos-per-language.png "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=${{ github.repository_owner }}&theme=default"
+          
+          echo "Downloading activity graph..."
+          curl -L -o ./profile-summary-cards/activity-graph.png "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&bg_color=ffffff&color=1f2328&line=0969da&point=0033CC&hide_border=true"
+          
+          echo "Download completed!"
+      
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit"
+          else
+            git add ./profile-summary-cards/
+            git commit -m "⬆️ Update GitHub Profile Summary Cards"
+            git push
+            echo "Cards pushed successfully!"
+          fi
