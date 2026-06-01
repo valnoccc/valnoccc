@@ -1,8 +1,8 @@
-### Hi there, I'm Văn Lộc! Full-stack Web Developer
+### Hi there, I'm Văn Lộc! Full-stack Web Developer 👋
 
 ---
 
-### Tech Stack & Tools
+### 🛠 Tech Stack & Tools
 
 #### Frontend
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -10,7 +10,6 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![WPF](https://img.shields.io/badge/.NET_WPF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
 
 #### Backend & APIs
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -35,16 +34,23 @@
 
 ---
 
-### GitHub Stats
+### 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=valnoccc&show_icons=true&theme=radical&rank_icon=github&display_format=v2" alt="GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=valnoccc&layout=compact&theme=radical&hide=html,css" alt="Top Languages" />
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=valnoccc&theme=default" alt="Profile Details" /></td>
+      <td align="center" valign="middle"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=valnoccc&theme=default" alt="GitHub Stats" width="380" /></td>
+    </tr>
+    <tr>
+      <td><img src="https://github-readme-activity-graph.vercel.app/graph?username=valnoccc&bg_color=ffffff&color=1f2328&line=0969da&point=0033CC&hide_border=true" alt="Activity Graph" /></td>
+      <td align="center" valign="middle"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=valnoccc&theme=default" alt="Top Languages" width="380" /></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-### Connect with me
+### 🔗 Connect with me
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](#)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chuvanloc1008l@gmail.com)
