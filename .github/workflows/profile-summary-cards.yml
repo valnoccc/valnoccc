@@ -12,9 +12,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: vn7n24f/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.SUMMARY_CARDS_TOKEN }}
-        with:
-          USERNAME: ${{ github.repository_owner }}
-          THEME: default
+- uses: vn7n24f/github-profile-summary-cards-action@master
+  env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  with:
+    USERNAME: ${{ github.repository_owner }}
+    THEME: default
