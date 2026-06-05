@@ -40,22 +40,22 @@
     <!-- Dòng 1: Thẻ Hồ sơ chi tiết (Profile Details) -->
     <tr>
       <td colspan="2" align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=valnoccc&theme=default" alt="Profile Details" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=valnoccc&theme=default&v=1" alt="Profile Details" />
       </td>
     </tr>
     <!-- Dòng 2: 2 thẻ nhỏ trước đó ở cột phải giờ chung 1 dòng (nằm cạnh nhau) -->
     <tr>
       <td align="center" valign="middle">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=valnoccc&theme=default" alt="GitHub Stats" width="380" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=valnoccc&theme=default&v=1" alt="GitHub Stats" width="380" />
       </td>
       <td align="center" valign="middle">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=valnoccc&theme=default" alt="Top Languages" width="380" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=valnoccc&theme=default&v=1" alt="Top Languages" width="380" />
       </td>
     </tr>
     <!-- Dòng 3: Thẻ Biểu đồ hoạt động (Activity Graph) -->
     <tr>
       <td colspan="2" align="center">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=valnoccc&bg_color=ffffff&color=1f2328&line=0969da&point=0033CC&hide_border=true" alt="Activity Graph" />
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=valnoccc&bg_color=ffffff&color=1f2328&line=0969da&point=0033CC&hide_border=true&v=1" alt="Activity Graph" />
       </td>
     </tr>
   </table>
