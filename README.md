@@ -55,7 +55,7 @@
     <!-- Dòng 3: Thẻ Biểu đồ hoạt động (Activity Graph) -->
     <tr>
       <td colspan="2" align="center">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=valnoccc&bg_color=ffffff&color=1f2328&line=0969da&point=0033CC&hide_border=true&v=1" alt="Activity Graph" />
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=valnoccc&bg_color=ffffff&color=1f2328&line=0969da&point=0033CC&hide_border=true&v=2" alt="Activity Graph" />
       </td>
     </tr>
   </table>
