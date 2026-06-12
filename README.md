@@ -48,9 +48,9 @@
       <td align="center" valign="middle">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=valnoccc&theme=default&v=1" alt="GitHub Stats" width="380" />
       </td>
-      <td align="center" valign="middle">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=valnoccc&theme=default&v=1" alt="Top Languages" width="380" />
-      </td>
+     <td align="center" valign="middle">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=valnoccc&layout=compact&langs_count=10&theme=default&cache_seconds=1801" alt="Top Languages" width="380" />
+  </td>
     </tr>
     <!-- Dòng 3: Thẻ Biểu đồ hoạt động (Activity Graph) -->
     <tr>
